@@ -13,20 +13,18 @@
         android:src="@drawable/top_bg"
         android:scaleType="centerCrop"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_title"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="80dp"/>
-
     <ImageView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="320dp"
+        android:layout_height="306dp"
         android:src="@drawable/omikuji"
         android:layout_gravity="center"/>
 
-
+    <ImageView
+        android:id="@+id/start_btn"
+        android:layout_width="318dp"
+        android:layout_height="63dp"
+        android:src="@drawable/omikujiwohiku"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="45dp"/>
 </FrameLayout>

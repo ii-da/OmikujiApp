@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">OmikujiApp</string>
     <string name="app_title">おみくじアプリ</string>
+    <string name="great_blessing">大吉</string>
+    <string name="middle_blessing">中吉</string>
+    <string name="small_blessing">小吉</string>
+    <string name="blessing">吉</string>
+    <string name="future_blessing">末吉</string>
+    <string name="curse">凶</string>
+    <string name="great_curse">大凶</string>
+    <string name="great_blessing_message">最高の1日になります\nおめでとう</string>
+    <string name="middle_blessing_message">よい1日になります</string>
+    <string name="small_blessing_message">ちょっといい日になります</string>
+    <string name="blessing_message">いい日になります</string>
+    <string name="future_blessing_message">いい日になりそうです</string>
+    <string name="curse_message">足元に注意しましょう</string>
+    <string name="great_curse_message">元気出して！</string>
 </resources>

@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/result_bg"
+        android:scaleType="centerCrop"/>
+    
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="281dp"
+        android:src="@drawable/middle_blessing"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/result_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大吉"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最高の1日になります"
+        android:textSize="32sp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="101dp"
+        android:layout_height="27dp"
+        android:src="@drawable/modoru"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+</FrameLayout>
