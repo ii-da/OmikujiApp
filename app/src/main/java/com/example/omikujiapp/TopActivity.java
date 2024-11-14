@@ -11,6 +11,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.Random;
+
 public class TopActivity extends AppCompatActivity {
 
     private ImageView startBtn;
@@ -30,7 +32,10 @@ public class TopActivity extends AppCompatActivity {
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TopActivity.this, ResultActivity.class);
+                Random random = new Random();
+                int num = random.nextInt(7);
+
+                Intent intent = ResultActivity.newIntent(TopActivity.this, num);
                 startActivity(intent);
             }
         });
